@@ -1,0 +1,19 @@
+#!/bin/bash
+#if want to stop mail then MAILTO=""
+SHELL=/bin/bash
+BASH_ENV=/Users/kush/zoom_class_organizer.sh
+TERM=dumb
+
+#Mon, Thur classes
+28 8 * * 1,4 sleep 20; open_compsci
+47 9 * * 1,4 open_world
+7 11 * * 1,4 open_english
+
+#Tue, Fri classes
+30 8 * * 2,5 sleep 20; open_spanish
+47 9 * * 2,5 open_chemistry
+7 11 * * 2,5 open_calculus
+
+#access
+40-45 9 * * 3 sleep 20; open_access
+
